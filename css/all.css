@@ -11481,7 +11481,7 @@ body {
   font-family: 'Noto Sans TC', 'Baloo Tamma 2', cursive, sans-serif;
 }
 
-ls-3 {
+.ls-3 {
   letter-spacing: 3px;
 }
 
@@ -11504,5 +11504,9 @@ ls-3 {
 
 .fs-7 {
   font-size: .875rem;
+}
+
+.rounded-32 {
+  border-radius: 32px;
 }
 /*# sourceMappingURL=all.css.map */

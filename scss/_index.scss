@@ -2,7 +2,7 @@ body {
   font-family: 'Noto Sans TC', 'Baloo Tamma 2', cursive, sans-serif;
 }
 
-ls-3 {
+.ls-3 {
   letter-spacing: 3px;
 }
 
@@ -26,3 +26,26 @@ ls-3 {
 .fs-7 {
   font-size: .875rem;
 }
+
+.rounded-32 {
+  border-radius: 32px;
+}
+
+// .btn-primary:hover {
+//   color: #ffe47c;
+//   background-color: #858377;
+//   border-color: #ffe274;
+// }
+
+// .btn-outline-gray:hover>i {
+//   color: $danger;
+// }
+
+// .btn-outline-gray:hover {
+//   color: $danger;
+
+//   i{
+//     color: red;
+//   }
+// }
+
