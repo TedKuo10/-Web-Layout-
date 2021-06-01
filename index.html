@@ -6,42 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>募資網站</title>
   <link rel="stylesheet" href="css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="#"/>
 </head>
 <body>
   <header class="border-bottom border-primary border-5">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light py-3">
-        <div class="container-fluid">
-          <a class="navbar-brand logo me-5" href="#">
-            <!-- <img class="logo" src="./img/logo.jpg" alt="" srcset=""> -->
-            六角拼拼
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active pe-5" aria-current="page" href="#">關於</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link pe-5" href="#">挖寶</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link pe-5" href="#">我有個大膽的想法</a>
-              </li>
-            </ul>
-            <div class="d-flex">
-              <button class="btn btn-primary rounded-pill me-3 btn-px-32 fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal" type="submit">登入</button>
-              <button class="btn btn-outline-secondary rounded-pill btn-px-32 fw-bold" type="submit">註冊</button>
-            </div>
+        <a class="navbar-brand logo me-5" href="#">
+          <!-- <img class="logo" src="./img/logo.jpg" alt="" srcset=""> -->
+          六角拼拼
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active pe-5" aria-current="page" href="#">關於</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-5" href="#">挖寶</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-5" href="#">我有個大膽的想法</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-primary rounded-pill me-3 btn-px-32 fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal" type="submit">登入</button>
+            <button class="btn btn-outline-secondary rounded-pill btn-px-32 fw-bold" type="submit">註冊</button>
           </div>
         </div>
       </nav>
     </div>
   </header>
 
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <span class="badge bg-secondary px-3 lh-sm mb-1">魔法科技</span>
+          <!-- 尋找文字的預設顏色 body-color -->
+          <h1 class="fs-2 fw-bold ls-3 mb-4">拍出會動的照片｜LivePhotos 魔法拍立得</h1>
+        </div>
+        <div class="col-12 col-lg-7">
+          <img class="img-fluid" src="../img/produt_image.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
+
+  <!-- loginModal -->
   <div class="modal fade" id="loginModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered"">
       <div class="modal-content">

@@ -82,7 +82,7 @@ $dark:          $gray-900 !default;
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    $primary,
-  "secondary":  $secondary,
+  "secondary":  #858377,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -279,7 +279,8 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+// $body-color:                $gray-900 !default;
+$body-color:                #494846 !default;
 $body-text-align:           null !default;
 
 

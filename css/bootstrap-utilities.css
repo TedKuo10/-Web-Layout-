@@ -19,11 +19,11 @@
 }
 
 .link-secondary {
-  color: #6c757d;
+  color: #858377;
 }
 
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64;
+  color: #9d9c92;
 }
 
 .link-success {
@@ -452,7 +452,7 @@
 }
 
 .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #858377 !important;
 }
 
 .border-success {
@@ -1356,7 +1356,7 @@
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #858377 !important;
 }
 
 .text-success {
@@ -1388,7 +1388,7 @@
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #494846 !important;
 }
 
 .text-muted {
@@ -1412,7 +1412,7 @@
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #858377 !important;
 }
 
 .bg-success {
