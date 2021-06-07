@@ -6,6 +6,10 @@ body {
   letter-spacing: 3px;
 }
 
+.ls-2{
+  letter-spacing: 2px;
+}
+
 .logo {
   display: block;
   width: 110px;
@@ -31,15 +35,17 @@ body {
   border-radius: 32px;
 }
 
-// .btn-primary:hover {
-//   color: #ffe47c;
-//   background-color: #858377;
-//   border-color: #ffe274;
-// }
+.btn-primary:hover {
+  background-color: #ff785e;
+  border-color: #ff785e;
+  color: #fff;
+}
 
-// .btn-outline-gray:hover>i {
-//   color: $danger;
-// }
+.btn-outline-secondary:hover {
+  background-color: #ffdf65;
+  border-color: #ffdf65;
+  color: #636057;
+}
 
 // .btn-outline-gray:hover {
 //   color: $danger;
@@ -49,3 +55,24 @@ body {
 //   }
 // }
 
+.form-control {
+  background-color: #f7f7f7;
+  border: none;
+}
+
+
+// for tab
+.text-font-color {
+  color: #636057!important;
+}
+
+#myTab {
+  .nav-link{
+    letter-spacing: 2px;
+  }
+}
+
+.nav .active{
+  font-weight: 700;
+  border-bottom: 2px solid #ffc107;
+}

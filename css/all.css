@@ -11485,6 +11485,10 @@ body {
   letter-spacing: 3px;
 }
 
+.ls-2 {
+  letter-spacing: 2px;
+}
+
 .logo {
   display: block;
   width: 110px;
@@ -11508,5 +11512,35 @@ body {
 
 .rounded-32 {
   border-radius: 32px;
+}
+
+.btn-primary:hover {
+  background-color: #ff785e;
+  border-color: #ff785e;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ffdf65;
+  border-color: #ffdf65;
+  color: #636057;
+}
+
+.form-control {
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.text-font-color {
+  color: #636057 !important;
+}
+
+#myTab .nav-link {
+  letter-spacing: 2px;
+}
+
+.nav .active {
+  font-weight: 700;
+  border-bottom: 2px solid #ffc107;
 }
 /*# sourceMappingURL=all.css.map */
