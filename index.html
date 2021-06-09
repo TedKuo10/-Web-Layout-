@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>募資網站</title>
+  <title>拍出會動的照片，LivePhotos 魔法拍立得｜拼拼 募資網站</title>
   <link rel="stylesheet" href="css/all.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
@@ -71,7 +71,7 @@
           <a class="nav-link text-font-color py-3 px-md-4" id="progress-tab" data-bs-toggle="tab" data-bs-target="#progressTabContent" type="button" role="tab" aria-controls="contact" aria-selected="false">目前進度</a>
         </li>
         <li class="nav-item" role="presentation">
-          <a class="nav-link text-font-color py-3 px-md-4" id="msg-tab" data-bs-toggle="tab" data-bs-target="#cmsgTabContent" type="button" role="tab" aria-controls="contact" aria-selected="false">留言</a>
+          <a class="nav-link text-font-color py-3 px-md-4" id="msg-tab" data-bs-toggle="tab" data-bs-target="#msgTabContent" type="button" role="tab" aria-controls="contact" aria-selected="false">留言</a>
         </li>
       </ul>
     </div>
@@ -101,11 +101,26 @@
             </section>
           </div>
           <!-- 常見問題 -->
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+          <div class="tab-pane fade" id="qaTabContent" role="tabpanel" aria-labelledby="profile-tab">
+            <ul class="accordion list-unstyled" id="qaAccordion">
+              <li class="accordion-item">
+                <h2 class="accordion-header" id="qa1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-qa1" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
           <!-- 目前進度 -->
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          <div class="tab-pane fade" id="progressTabContent" role="tabpanel" aria-labelledby="contact-tab">...</div>
           <!-- 留言 -->
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          <div class="tab-pane fade" id="msgTabContent" role="tabpanel" aria-labelledby="contact-tab">...</div>
         </div>
       </div>
       <!-- 右邊 card 區塊 -->
